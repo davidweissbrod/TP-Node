@@ -5,9 +5,9 @@ miObjeto = parsearUrl (miUrl);
 console.log(miObjeto);
 function parsearUrl(laURL){
     var miObjeto = {
-      host:  "laURL.href",
-      pathname: "laURL.pathname",
-      parametros: "laURL.search"
+      host:  laURL.href,
+      pathname: laURL.pathname,
+      parametros: laURL.search
     }
     return miObjeto
 }
